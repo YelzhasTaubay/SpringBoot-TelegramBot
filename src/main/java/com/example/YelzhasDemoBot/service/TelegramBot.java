@@ -102,9 +102,9 @@ public class TelegramBot extends TelegramLongPollingBot{
             user.setFirstName(chat.getFirstName());
             user.setLastName(chat.getLastName());
             user.setUserName(chat.getUserName());
-            //user.setregisteredAt(chat.)  //Возможно тут ошибка
+            //user.setregisteredAt(chat.)  // тут ошибка
 
-            //userRepository.save(user); //Возможно тут ошибка
+            //userRepository.save(user); // тут ошибка
             log.info("user saved: " + user);
         }
     }
